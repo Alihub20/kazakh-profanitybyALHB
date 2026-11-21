@@ -1,0 +1,28 @@
+{
+  "model": "TF-IDF char_wb n-grams + LogisticRegression",
+  "ngram_range": [
+    1,
+    4
+  ],
+  "C": 32.0,
+  "min_df": 2,
+  "sublinear_tf": true,
+  "class_weight": "balanced",
+  "max_iter": 2000,
+  "threshold": 0.5543511757981099,
+  "seed": 42,
+  "preprocessing": "src/textprep.py: lowercase, ё->е, digits->0, mask symbols->*, collapse repeated letters, remove punctuation, max 2000 chars",
+  "split": "70/15/15 grouped by near-duplicate key, stratified by label",
+  "split_sizes": {
+    "train": 2620,
+    "val": 533,
+    "test": 529
+  },
+  "versions": {
+    "python": "3.13.9",
+    "scikit-learn": "1.7.2",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5",
+    "joblib": "1.5.2"
+  }
+}

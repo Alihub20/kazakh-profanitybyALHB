@@ -1,0 +1,20 @@
+{
+  "n_test": 529,
+  "n_test_profane": 216,
+  "threshold": 0.5543511757981099,
+  "precision_profane": 0.9766355140186916,
+  "recall_profane": 0.9675925925925926,
+  "f1_profane": 0.9720930232558139,
+  "confusion_matrix": {
+    "TN": 308,
+    "FP": 5,
+    "FN": 7,
+    "TP": 209
+  },
+  "real_only": {
+    "n": 479,
+    "precision_profane": 0.9715909090909091,
+    "recall_profane": 0.9606741573033708,
+    "f1_profane": 0.9661016949152542
+  }
+}

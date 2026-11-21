@@ -1,0 +1,4 @@
+data/all_reviews.csv
+__pycache__/
+.ipynb_checkpoints/
+*.zip
